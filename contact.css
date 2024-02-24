@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body
+{
+    font-family: 'Open Sans', monospace;
+    background-color: black;
+}
+h3
+{
+    text-align: center;
+    color: whitesmoke;
+}
+p
+{
+    text-shadow: 0cqmax;
+    font-size: large;
+    color: white;
+}
