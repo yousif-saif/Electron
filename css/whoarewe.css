@@ -2,14 +2,12 @@
 
 body
 {
-    font-family: 'Open Sans', monospace;
-    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000001;
 }
-h3
-{
-    text-align: center;
-}
-h1, h3, p, a
+
+p, h3
 {
     color: white;
+    text-align: center;
 }
