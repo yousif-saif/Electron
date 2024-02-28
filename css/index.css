@@ -161,50 +161,30 @@ main {
 }
 
 
-@media only screen and (max-width: 800px) {
-    .navbar {
-        bottom: 0;
-        width: 100vw;
-        height: 5rem;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .navbar-nav {
-        flex-direction: row;
-    }
-
-    .nav-link {
-        justify-content: center;
-    }
-
-    main {
-        margin: 0;
-    }
+.navbar {
+    top: 0;
+    width: 100vw;
+    height: 5rem;
 }
 
-@media only screen and (min-width: 800px) {
-    .navbar {
-        top: 0;
-        width: 5rem;
-        height: 100vh;
-    }
+.logo {
+    display: none;
+}
 
-    .navbar:hover {
-        width: 16rem;
-    }
+.navbar-nav {
+    flex-direction: row;
+}
 
-    .navbar:hover .link-text {
-        display: inline;
-    }
+.nav-link {
+    justify-content: center;
+}
 
-    .navbar:hover .logo svg {
-        margin-left: 11rem;
-    }
+main {
+    margin: 0;
 
-    .navbar:hover .logo-text {
-        left: 0px;
-    }
+}
+
+h3 {
+    margin-top: 100px;
+
 }
